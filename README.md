@@ -4,7 +4,7 @@
 >
 > 支持**任何品牌/品类**。4 步配置，无需写代码。
 
-[![GitHub stars](https://img.shields.io/github/stars/<OWNER>/<REPO>?style=flat-square)](https://github.com/<OWNER>/<REPO>)
+[![GitHub stars](https://img.shields.io/github/stars/wdgdd/chatwx-fwh-community?style=flat-square)](https://github.com/wdgdd/chatwx-fwh-community)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ---
@@ -26,7 +26,7 @@
 ### 第一步：下载
 
 ```powershell
-git clone https://github.com/<OWNER>/chatwx-fwh-community.git
+git clone https://github.com/wdgdd/chatwx-fwh-community.git
 # 或到 GitHub 页面下载 zip
 ```
 
