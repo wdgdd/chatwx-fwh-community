@@ -86,8 +86,9 @@ python wechat_publish.py
 然后：
 1. 打开任意 Markdown 编辑器（如 [🔗 https://md.doocs.org/](https://md.doocs.org/)）
 2. 粘贴 Markdown 内容
-3. 按图片序号替换图片
-4. 复制全文 → 公众号后台粘贴发布
+3. 复制全文 → 粘贴到公众号后台
+4. 按图片序号替换图片
+5. 发布
 
 ---
 
