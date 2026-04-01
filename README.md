@@ -4,7 +4,7 @@
 >
 > 支持**任何品牌/品类**。4 步配置，无需写代码。
 
-[![GitHub stars](https://img.shields.io/github/stars/wdgdd/chatwx-fwh-community?style=flat-square)](https://github.com/wdgdd/chatwx-fwh-community)
+[![GitHub stars](https://img.shields.io/github/stars/<OWNER>/<REPO>?style=flat-square)](https://github.com/<OWNER>/<REPO>)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
 
 ---
@@ -12,7 +12,7 @@
 ## 核心功能
 
 | 功能 | 说明 |
-|------|------|
+:|------|------|
 | 🤖 **AI 帮写** | 告诉 AI 品牌+产品，它帮你定选题、写全文、配图方案 |
 | ✅ **合规自检** | 写完自动 6 项检查（数据/措辞/同行对比等） |
 | 🎨 **6 套排版主题** | 简约/居中/温暖/绿色/装饰/大标题，一键切换 |
@@ -26,7 +26,7 @@
 ### 第一步：安装
 
 ```powershell
-git clone https://github.com/wdgdd/chatwx-fwh-community.git
+git clone https://github.com/<OWNER>/chatwx-fwh-community.git
 # 或下载 zip，解压到 <SKILL-PATH>
 ```
 
