@@ -30,22 +30,19 @@ git clone https://github.com/wdgdd/chatwx-fwh-community.git
 # 或到 GitHub 页面下载 zip
 ```
 
-### 第二步：放到技能目录
+### 第二步：放到技能目录（WorkBuddy 用户）
 
-把下载好的所有文件复制到你的 AI 技能目录：
+如果你使用 [WorkBuddy](https://www.codebuddy.cn)，把下载好的所有文件放到技能目录：
 
 - **Linux / Mac**：`~/.workbuddy/skills/chatwx-fwh/`
 - **Windows**：`C:\Users\你的用户名\.workbuddy\skills\chatwx-fwh\`
 
-> 如果目录不存在，手动创建即可。
+> 如果目录不存在，手动创建即可。非 WorkBuddy 用户可跳过此步，把文件放任意位置即可。
 
 ### 第三步：填 4 项配置
 
 ```powershell
-cd ~/.workbuddy/skills/chatwx-fwh   # Linux/Mac
-# 或
-cd C:\Users\你的用户名\.workbuddy\skills\chatwx-fwh   # Windows
-
+# 进入脚本所在目录（根据你实际放置的位置）
 python wechat_publish.py --setup
 ```
 
@@ -114,4 +111,4 @@ chatwx-fwh/
 └── articles/             ← 把你的文章放这里
 ```
 
-> 📌 `<SKILL-PATH>` = 技能解压到的目录路径（如 Linux/Mac 的 `~/.workbuddy/skills/chatwx-fwh/`，Windows 的 `C:\Users\你的用户名\.workbuddy\skills\chatwx-fwh\`）
+> 📌 WorkBuddy 用户：文件放到 `~/.workbuddy/skills/chatwx-fwh/` 即可被自动识别。其他用户把文件放任意位置，手动运行 `python wechat_publish.py` 即可。
