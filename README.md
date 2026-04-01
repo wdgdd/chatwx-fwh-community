@@ -23,17 +23,29 @@
 
 ## 快速开始
 
-### 第一步：安装
+### 第一步：下载
 
 ```powershell
 git clone https://github.com/<OWNER>/chatwx-fwh-community.git
-# 或下载 zip，解压到 <SKILL-PATH>
+# 或到 GitHub 页面下载 zip
 ```
 
-### 第二步：填 4 项配置
+### 第二步：放到技能目录
+
+把下载好的所有文件复制到你的 AI 技能目录：
+
+- **Linux / Mac**：`~/.workbuddy/skills/chatwx-fwh/`
+- **Windows**：`C:\Users\你的用户名\.workbuddy\skills\chatwx-fwh\`
+
+> 如果目录不存在，手动创建即可。
+
+### 第三步：填 4 项配置
 
 ```powershell
-cd <SKILL-PATH>
+cd ~/.workbuddy/skills/chatwx-fwh   # Linux/Mac
+# 或
+cd C:\Users\你的用户名\.workbuddy\skills\chatwx-fwh   # Windows
+
 python wechat_publish.py --setup
 ```
 
@@ -43,7 +55,7 @@ python wechat_publish.py --setup
 - AppID（公众号后台 → 基本配置）
 - AppSecret（同上页面，点「重置」）
 
-### 第三步：让 AI 写文章
+### 第四步：让 AI 写文章
 
 在支持 AI 技能的助手（如 WorkBuddy）中说：
 
@@ -53,10 +65,9 @@ python wechat_publish.py --setup
 
 AI 全程搞定：选题 → 写全文 → 合规自检 → 排版。
 
-### 第四步：发布
+### 第五步：发布
 
 ```powershell
-cd <SKILL-PATH>
 python wechat_publish.py
 ```
 
@@ -104,6 +115,3 @@ chatwx-fwh/
 ```
 
 > 📌 `<SKILL-PATH>` = 技能解压到的目录路径（如 Linux/Mac 的 `~/.workbuddy/skills/chatwx-fwh/`，Windows 的 `C:\Users\你的用户名\.workbuddy\skills\chatwx-fwh\`）
-
-## README文档审核
-[回城](https://github.com/loveysgg)
