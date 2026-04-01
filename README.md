@@ -12,7 +12,7 @@
 ## 核心功能
 
 | 功能 | 说明 |
-|------|------|
+:|------|------|
 | 🤖 **AI 帮写** | 告诉 AI 品牌+产品，它帮你定选题、写全文、配图方案 |
 | ✅ **合规自检** | 写完自动 6 项检查（数据/措辞/同行对比等） |
 | 🎨 **6 套排版主题** | 简约/居中/温暖/绿色/装饰/大标题，一键切换 |
@@ -27,13 +27,13 @@
 
 ```powershell
 git clone https://github.com/wdgdd/chatwx-fwh-community.git
-# 或下载 zip，解压到 ~/.workbuddy/skills/chatwx-fwh/
+# 或下载 zip，解压到 <SKILL-PATH>
 ```
 
 ### 第二步：填 4 项配置
 
 ```powershell
-cd ~/.workbuddy/skills/chatwx-fwh/
+cd <SKILL-PATH>
 python wechat_publish.py --setup
 ```
 
@@ -56,7 +56,7 @@ AI 全程搞定：选题 → 写全文 → 合规自检 → 排版。
 ### 第四步：发布
 
 ```powershell
-cd ~/.workbuddy/skills/chatwx-fwh/
+cd <SKILL-PATH>
 python wechat_publish.py
 ```
 
@@ -102,3 +102,5 @@ chatwx-fwh/
 ├── themes.yaml           ← 6套排版主题
 └── articles/             ← 把你的文章放这里
 ```
+
+> 📌 `<SKILL-PATH>` = 技能解压到的目录路径（如 Linux/Mac 的 `~/.workbuddy/skills/chatwx-fwh/`，Windows 的 `C:\Users\你的用户名\.workbuddy\skills\chatwx-fwh\`）
