@@ -37,7 +37,7 @@ git clone https://github.com/wdgdd/chatwx-fwh-community.git
 - **Linux / Mac**：`~/.workbuddy/skills/chatwx-fwh/`
 - **Windows**：`C:\Users\你的用户名\.workbuddy\skills\chatwx-fwh\`
 
-> 如果目录不存在，手动创建即可。非 WorkBuddy 用户可跳过此步，把文件放任意位置即可。
+> 如果目录不存在，手动创建即可。非 WorkBuddy 用户可跳过此步，把文件放任意位置即可（`wechat_publish.py` 和 `config.yaml`、`articles/` 保持在同一目录）。
 
 ### 第三步：填 4 项配置
 
