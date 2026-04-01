@@ -1,0 +1,10 @@
+{
+  "name": "chatwx-fwh",
+  "version": "1.4.0",
+  "description": "公众号文章写作与发布工具（通用社区版）",
+  "scripts": {
+    "setup": "python wechat_publish.py --setup",
+    "publish": "python wechat_publish.py",
+    "export": "python wechat_publish.py  # 选择 B"
+  }
+}

@@ -1,0 +1,79 @@
+# 公众号主题配置文件（通用版）
+# 支持多套主题模板，可在config.yaml中切换
+
+default_theme: green
+
+themes:
+  green:
+    name: "绿色健康主题"
+    description: "绿色调，适合健康/产品/生活类主题文章"
+    primary_color: "#009874"
+    secondary_color: "#006B5C"
+    text_color: "#333333"
+    heading_style: "colored"
+    table_style: "colored_header"
+    button_style: "filled"
+    separator_style: "line"
+    list_style: "simple"
+
+  simple:
+    name: "简约干净主题"
+    description: "适合日常推送、知识科普，排版清爽"
+    primary_color: "#666666"
+    secondary_color: "#999999"
+    text_color: "#333333"
+    heading_style: "colored"
+    table_style: "simple"
+    button_style: "outline"
+    separator_style: "space"
+    list_style: "simple"
+
+  center:
+    name: "居中排版主题"
+    description: "适合短篇、金句、情感类内容，段落居中对齐"
+    primary_color: "#E67E22"
+    secondary_color: "#D35400"
+    text_color: "#2C3E50"
+    heading_style: "colored"
+    table_style: "simple"
+    button_style: "filled"
+    separator_style: "line"
+    list_style: "simple"
+    alignment: "center"
+
+  decoration:
+    name: "装饰线条主题"
+    description: "适合品牌感强的内容，标题带装饰性线条"
+    primary_color: "#8E44AD"
+    secondary_color: "#9B59B6"
+    text_color: "#2C3E50"
+    heading_style: "colored"
+    table_style: "colored_header"
+    button_style: "filled"
+    separator_style: "line"
+    list_style: "simple"
+    title_decoration: true
+
+  prominent:
+    name: "大标题主题"
+    description: "适合深度长文、观点输出，标题加大加粗"
+    primary_color: "#C0392B"
+    secondary_color: "#E74C3C"
+    text_color: "#333333"
+    heading_style: "large"
+    table_style: "colored_header"
+    button_style: "filled"
+    separator_style: "line"
+    list_style: "numbered"
+
+  warm:
+    name: "温暖橙红主题"
+    description: "适合感恩、送礼、节日等温暖场景"
+    primary_color: "#E67E22"
+    secondary_color: "#F39C12"
+    text_color: "#2C3E50"
+    heading_style: "colored"
+    table_style: "colored_header"
+    button_style: "filled"
+    separator_style: "line"
+    list_style: "simple"
